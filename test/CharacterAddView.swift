@@ -19,9 +19,9 @@ class CharacterAddView: UIViewController {
     
     @IBAction func selectPhoto(_ sender: Any) {
         let controller = UIImagePickerController()
-        controller.delegate = charImg
-        controller.sourceType = .photoLibrary
-        present(controller, animated: true, completion: nil)
+        //controller.delegate = charImg
+        //controller.sourceType = .photoLibrary
+        //present(controller, animated: true, completion: nil)
         
     }
     @IBAction func done(_ sender: Any) {
