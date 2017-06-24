@@ -75,7 +75,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="6x7-uO-Ymh" kind="show" id="fTe-0M-oUV"/>
+                                            <segue destination="1sY-Cw-CRN" kind="show" id="JA6-7m-dbX"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="7MS-pc-3ns">
@@ -94,6 +94,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="pBY-f9-eLp" kind="show" id="Gfe-6Q-vQ6"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="0zI-cS-8ir">
                                         <rect key="frame" x="0.0" y="88" width="375" height="44"/>
@@ -208,7 +211,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5fh-GT-bMF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1686" y="-2000"/>
+            <point key="canvasLocation" x="3322" y="-1376"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="88J-jN-9HW">
@@ -223,7 +226,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xqZ-OD-FK7">
-                                <rect key="frame" x="16" y="72" width="343" height="538"/>
+                                <rect key="frame" x="16" y="72" width="343" height="238"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">阿卡（希伯來語：עַכּוֹ；阿拉伯語： عكّا；）位於以色列北部加利利西部的城市，距離耶路撒冷約152公里。1948年被以色列佔領。2006年，該市人口45,600人。 1948年之前大多數居民是阿拉伯人。
@@ -233,7 +236,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Acre-roofs-ingame" translatesAutoresizingMaskIntoConstraints="NO" id="hEb-k7-4PY">
-                                <rect key="frame" x="16" y="289" width="343" height="321"/>
+                                <rect key="frame" x="16" y="318" width="343" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -242,7 +245,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3nJ-Ih-nmm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3596" y="-2305"/>
+            <point key="canvasLocation" x="4557.6000000000004" y="-1281.4092953523239"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hMl-R9-bXF">
@@ -257,7 +260,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Cut-E4-2ca">
-                                <rect key="frame" x="16" y="72" width="343" height="538"/>
+                                <rect key="frame" x="16" y="72" width="343" height="230"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">馬斯亞夫是位於敘利亞西部奧龍特斯河谷、孤立在山區的一個城市。
@@ -267,7 +270,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AC1_Masyaf_Fortress" translatesAutoresizingMaskIntoConstraints="NO" id="wIx-7E-8Qh">
-                                <rect key="frame" x="16" y="271" width="343" height="339"/>
+                                <rect key="frame" x="16" y="310" width="343" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -276,7 +279,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bZe-ZJ-imH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3516" y="-2400"/>
+            <point key="canvasLocation" x="4477.6000000000004" y="-1376.7616191904049"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="pEK-GX-97s">
@@ -360,7 +363,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MhV-9d-kce" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1567" y="-2305"/>
+            <point key="canvasLocation" x="2882" y="-1795"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kTL-Ue-ZQL">
@@ -375,7 +378,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="81j-um-IZS">
-                                <rect key="frame" x="16" y="64" width="343" height="546"/>
+                                <rect key="frame" x="16" y="340" width="343" height="270"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">戴斯蒙德·邁爾斯（1987年 - 2012年），亦即人們口中的 阿尼穆斯項目 實驗體17號，他是一名旅居隱士，也是眾多宣誓效忠刺客信條家族的後人；其中包括諸如 阿奎盧斯，阿泰爾·伊本-拉阿哈德，佛羅倫薩的埃齊奧·奧迪托雷以及康納·肯維等人。
@@ -388,13 +391,17 @@
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Desmond" translatesAutoresizingMaskIntoConstraints="NO" id="t00-iB-6tv">
+                                <rect key="frame" x="16" y="72" width="343" height="267"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y0o-FO-pGL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2520.8000000000002" y="-2400.4497751124441"/>
+            <point key="canvasLocation" x="3837.5999999999999" y="-1890.4047976011996"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gAu-ov-ERq">
@@ -409,7 +416,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fHj-w6-Rgw">
-                                <rect key="frame" x="16" y="64" width="343" height="546"/>
+                                <rect key="frame" x="16" y="341" width="343" height="270"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">露西·斯蒂爾曼（Lucy Stillman，1988年 - 2012年）是當代刺客組織的一名成員，曾經作為Abstergo工業Animus項目基因記憶的研究員，在聖殿騎士內部做長達數年的卧底工作。在她滲透Abstergo期間，她一直向刺客們彙報Abstergo的最新進展。但是，由於長時間和刺客組織的分離以及對威廉·邁爾斯的不信任導致了她在2011年早些時候秘密叛變到了聖殿騎士一方。
@@ -418,13 +425,17 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lucy" translatesAutoresizingMaskIntoConstraints="NO" id="abW-x5-XgZ">
+                                <rect key="frame" x="16" y="72" width="343" height="267"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rHc-HJ-7Me" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2600.8000000000002" y="-2271.8140929535234"/>
+            <point key="canvasLocation" x="3917.5999999999999" y="-1762.6686656671666"/>
         </scene>
         <!--Assassin's creed II-->
         <scene sceneID="gVb-bu-SnK">
@@ -453,6 +464,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="6x7-uO-Ymh" kind="show" id="YPQ-QL-QMP"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="cak-j4-cKn">
                                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
@@ -708,7 +722,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3z0-mS-5Az">
-                                <rect key="frame" x="16" y="64" width="343" height="546"/>
+                                <rect key="frame" x="16" y="347" width="343" height="270"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Rashid ad-Din Sinan（1135-1191），又叫Al Mualim（音譯阿爾莫林，意譯導師或者大師），也被叫做山中老人，曾經是中世紀中期黎凡特刺客分支的首領。他也是其繼任者阿泰爾原來的導師。
@@ -717,13 +731,17 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Almualim" translatesAutoresizingMaskIntoConstraints="NO" id="q2j-zg-cj2">
+                                <rect key="frame" x="16" y="72" width="343" height="267"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1eD-jq-T4O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2736.8000000000002" y="-2187.2563718140932"/>
+            <point key="canvasLocation" x="4053.5999999999999" y="-1677.2113943028487"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Jqb-fg-n9P">
@@ -738,7 +756,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kP4-tH-Dqq">
-                                <rect key="frame" x="16" y="72" width="343" height="538"/>
+                                <rect key="frame" x="16" y="72" width="343" height="230"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <attributedString key="attributedText">
@@ -767,7 +785,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Arc_of_Covenant" translatesAutoresizingMaskIntoConstraints="NO" id="hMK-yv-8oy">
-                                <rect key="frame" x="16" y="429" width="343" height="181"/>
+                                <rect key="frame" x="16" y="310" width="343" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -776,7 +794,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eey-Eg-oAe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3734" y="-2187"/>
+            <point key="canvasLocation" x="4693.6000000000004" y="-1163.568215892054"/>
         </scene>
         <!--II-->
         <scene sceneID="T6O-v9-FSG">
@@ -835,7 +853,7 @@
             </objects>
             <point key="canvasLocation" x="1652" y="241"/>
         </scene>
-        <!--Character Table-->
+        <!--人物介紹-->
         <scene sceneID="Ro1-Y9-FnY">
             <objects>
                 <tableViewController id="6x7-uO-Ymh" customClass="CharacterTable" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
@@ -844,7 +862,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="characterCell" textLabel="qF5-Y7-lVf" style="IBUITableViewCellStyleDefault" id="Ifw-KF-3Ca">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="characterCell" textLabel="qF5-Y7-lVf" style="IBUITableViewCellStyleDefault" id="Ifw-KF-3Ca" customClass="CharacterTableCell" customModule="test" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ifw-KF-3Ca" id="Op1-ym-Ic6">
@@ -861,6 +879,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="charName" destination="qF5-Y7-lVf" id="8so-pC-u3W"/>
                                     <segue destination="XAN-eo-JkD" kind="show" id="LBf-Wc-6II"/>
                                 </connections>
                             </tableViewCell>
@@ -870,83 +889,125 @@
                             <outlet property="delegate" destination="6x7-uO-Ymh" id="GDu-Lt-XvF"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="2BK-gL-wyY">
+                    <navigationItem key="navigationItem" title="人物介紹" id="2BK-gL-wyY">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="fQL-is-iUY">
                             <connections>
-                                <segue destination="cC0-NI-Ls1" kind="show" id="jdF-xP-U7k"/>
+                                <segue destination="M0z-Z4-CIX" kind="show" id="R1p-Oe-1cg"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0sn-0l-ang" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3242" y="-895"/>
+            <point key="canvasLocation" x="3524" y="-511"/>
         </scene>
-        <!--Character Add View-->
-        <scene sceneID="dOO-BT-abF">
+        <!--新增角色-->
+        <scene sceneID="2hH-mZ-yXH">
             <objects>
-                <viewController id="cC0-NI-Ls1" customClass="CharacterAddView" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="r2V-s5-I54"/>
-                        <viewControllerLayoutGuide type="bottom" id="Fbi-Z1-xcb"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="xuj-pW-Qgp">
+                <tableViewController id="M0z-Z4-CIX" customClass="CharacterTableAdder" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" id="Tzn-Sh-jux">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wwh-3F-avd">
-                                <rect key="frame" x="16" y="169" width="343" height="220"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Context..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="YUD-fM-BHd">
-                                <rect key="frame" x="16" y="397" width="343" height="265"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.75095184619999999" green="0.90266040349999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="名字" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cem-ZK-aTy">
-                                <rect key="frame" x="16" y="86" width="57" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dia-3b-ksT">
-                                <rect key="frame" x="81" y="86" width="278" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.75095184619999999" green="0.90266040349999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DEX-g4-sb8">
-                                <rect key="frame" x="144" y="124" width="86" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="選擇照片"/>
-                                <connections>
-                                    <action selector="selectPhoto:" destination="cC0-NI-Ls1" eventType="touchUpInside" id="3Qq-7t-Iet"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="kSi-jm-KdV">
-                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="mmy-Au-oQ0">
+                        <sections>
+                            <tableViewSection id="UfV-6o-mcN">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="MZL-3x-LdD">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MZL-3x-LdD" id="DHy-xe-fj0">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="角色名字" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gaU-vU-JQD">
+                                                    <rect key="frame" x="8" y="8" width="123" height="64"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mzn-oK-ac5">
+                                                    <rect key="frame" x="139" y="25" width="228" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.7576708746280223" green="1" blue="0.87308378441477008" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="304" id="3SH-ps-VgH">
+                                        <rect key="frame" x="0.0" y="80" width="375" height="304"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3SH-ps-VgH" id="5iM-Kg-L09">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="304"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dIj-Ib-55x">
+                                                    <rect key="frame" x="7" y="50" width="360" height="240"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="26R-7R-4Zd">
+                                                    <rect key="frame" x="112" y="12" width="150" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.78578242607634308" green="1" blue="0.8778090756888739" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <state key="normal" title="點選圖片"/>
+                                                    <connections>
+                                                        <action selector="selectImage:" destination="M0z-Z4-CIX" eventType="touchUpInside" id="VrQ-5M-nkL"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="178" id="YtA-je-38x">
+                                        <rect key="frame" x="0.0" y="384" width="375" height="178"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YtA-je-38x" id="JxU-3I-aN1">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="178"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="角色介紹" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RE5-Ct-6R8">
+                                                    <rect key="frame" x="16" y="7" width="123" height="64"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oVF-el-mg9">
+                                                    <rect key="frame" x="147" y="8" width="220" height="158"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.72771261889875771" green="1" blue="0.82472087884518053" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="M0z-Z4-CIX" id="M9u-fu-a3y"/>
+                            <outlet property="delegate" destination="M0z-Z4-CIX" id="3jo-FQ-CPq"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="新增角色" id="EYf-5F-hb1">
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="IJw-kC-Ccf">
                             <connections>
-                                <action selector="done:" destination="cC0-NI-Ls1" id="t2w-kO-1SC"/>
+                                <action selector="save:" destination="M0z-Z4-CIX" id="HSL-5M-4ci"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="charImg" destination="Wwh-3F-avd" id="90R-Nf-9di"/>
-                        <outlet property="charName" destination="dia-3b-ksT" id="dAv-tZ-7VU"/>
-                        <outlet property="charText" destination="YUD-fM-BHd" id="YYy-j3-wxw"/>
+                        <outlet property="charCtx" destination="oVF-el-mg9" id="KH5-fa-RwO"/>
+                        <outlet property="charImg" destination="dIj-Ib-55x" id="BXI-eg-GgC"/>
+                        <outlet property="charName" destination="mzn-oK-ac5" id="59l-Uc-dKK"/>
                     </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="r5r-hY-GD5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Za-AK-xCC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4232.8000000000002" y="-1602.5487256371816"/>
+            <point key="canvasLocation" x="4346" y="-604"/>
         </scene>
         <!--Character Detail View-->
         <scene sceneID="Gbq-EK-6yG">
@@ -964,13 +1025,13 @@
                                 <rect key="frame" x="16" y="72" width="343" height="265"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kf7-iU-VKX">
-                                <rect key="frame" x="16" y="345" width="343" height="765"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6HG-XK-fgG">
+                                <rect key="frame" x="16" y="361" width="343" height="248"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -979,22 +1040,25 @@
                     <size key="freeformSize" width="375" height="666"/>
                     <connections>
                         <outlet property="charImg" destination="eyQ-Fs-ugh" id="4O8-TD-aZU"/>
-                        <outlet property="charLab" destination="Kf7-iU-VKX" id="cIX-Om-u0u"/>
+                        <outlet property="charText" destination="6HG-XK-fgG" id="FA6-s8-htX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5jh-F8-hEi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4162.3999999999996" y="-873.91304347826099"/>
+            <point key="canvasLocation" x="4810" y="-214"/>
         </scene>
     </scenes>
     <resources>
         <image name="1280px-Assassin's_Creed_Logo.svg" width="640" height="307"/>
         <image name="AC1_Masyaf_Fortress" width="16" height="16"/>
         <image name="Acre-roofs-ingame" width="16" height="16"/>
+        <image name="Almualim" width="16" height="16"/>
         <image name="Arc_of_Covenant" width="16" height="16"/>
+        <image name="Desmond" width="16" height="16"/>
         <image name="I" width="31" height="37"/>
         <image name="II" width="37" height="37"/>
         <image name="III" width="29" height="37"/>
+        <image name="Lucy" width="16" height="16"/>
         <image name="bh" width="37" height="30"/>
     </resources>
 </document>

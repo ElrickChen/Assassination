@@ -12,14 +12,23 @@ class CharacterDetailView: UIViewController {
     var characterTmp:[String:Any]!
     
     @IBOutlet weak var charImg: UIImageView!
-    @IBOutlet weak var charLab: UILabel!
+    @IBOutlet weak var charText: UITextView!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         navigationItem.title = characterTmp["name"] as? String
-        charLab.text = characterTmp["context"] as? String
+        
+        let fileManager = FileManager.default
+        let docUrls =
+            fileManager.urls(for: .documentDirectory, in: .userDomainMask)
+        let docUrl = docUrls.first
+        let url = docUrl?.appendingPathComponent(characterTmp["image"]! as! String)
+        charImg.image = UIImage(contentsOfFile: url!.path)
+        
+        charText.text = characterTmp["context"] as? String
     }
 
     override func didReceiveMemoryWarning() {
